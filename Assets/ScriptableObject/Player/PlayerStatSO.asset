@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7facc6d76c5e6534a9ec6b90c8ae9a67, type: 3}
+  m_Name: PlayerStatSO
+  m_EditorClassIdentifier: 
+  currentHealth: 3335
+  pos: {fileID: 11400000, guid: 611e4ee9e64bdfa4f9e41cc1cdc44a3a, type: 2}
+  config: {fileID: 11400000, guid: 2c715f7f9c971054c9802aac1c916287, type: 2}
+  maxHealth: {fileID: 11400000, guid: 80834c3c30c589f4da196b4d4ed8d34b, type: 2}
+  defense: {fileID: 11400000, guid: bc4887d75add4e24dab624156a39554d, type: 2}
+  attack: {fileID: 11400000, guid: 6b3c70b76f5d7cc49850d03f9b76b48c, type: 2}
+  critChance: {fileID: 11400000, guid: 4c755cee2ff6fa045ba4fb75ae4e0898, type: 2}
+  critMultiplier: {fileID: 11400000, guid: 9d5b486791feea1488b323fbc1288007, type: 2}
+  defenseScalingFactor: 30
+  currentLevel: 222
+  maxExp: 50394
+  currentExp: 1154
+  levelUpText: {fileID: 7167066064421935665, guid: 50f034ffc9a49b24985a1377e5206410, type: 3}
+  critText: {fileID: 7167066064421935665, guid: 50d5ec7e89087094faff98cc3db6fbd1, type: 3}
+  lifestealText: {fileID: 1760552497896054239, guid: 1016cd9a527fd3a4a9c55088db331013, type: 3}
+  extraHealth: {fileID: 11400000, guid: 2b1a187d19508bf42a57c0224ea499a4, type: 2}
+  extraDefense: {fileID: 11400000, guid: 8a46fec339b6b3b4ca4cd2909afb8b3d, type: 2}
+  extraAttack: {fileID: 11400000, guid: 1745c8e541be8fc428fe16aef7226d89, type: 2}
+  extraCritChance: {fileID: 11400000, guid: 998f73bfe7cefe94fa225465490ca099, type: 2}
+  extraCritMultiplier: {fileID: 11400000, guid: b5ac8960879ab72448c376f68c150fe4, type: 2}
+  currentZhen: 102040
+  textObj: {fileID: 1760552497896054239, guid: edc42af672f17764f9457eaf6b691e30, type: 3}
+  UpdateHpBarEvent: {fileID: 11400000, guid: 95838e94dbf562142819609bba15abed, type: 2}
+  UpdateExpBarEvent: {fileID: 11400000, guid: cf8a0fa275979954aafb6d8f7d64e58b, type: 2}
+  UpdateZhenEvent: {fileID: 11400000, guid: 80e4fb1e428f0a54a98fef183535b6be, type: 2}
+  UpdateLevelEvent: {fileID: 11400000, guid: 9d7a59ba63a5c7d4790e8add82034aa0, type: 2}
+  UpdateFloorEvent: {fileID: 11400000, guid: 85887c7115725e34b8bda7b5a9d8d83d, type: 2}
+  UpdateHealthText: {fileID: 11400000, guid: eaee6d136a754c74985e455899a7c95e, type: 2}
+  UpdateExpText: {fileID: 11400000, guid: c02f71dbef7ecc64b8802ea354b87769, type: 2}
+  isLifesteal: 0
+  lifestealAmount: 0
+  isBuff: 0
+  bonusDamage: 0
+  bonusDefense: 0
+  enchanceBuff: 0
+  gameOverModal: {fileID: 0}
+  anim: {fileID: 0}

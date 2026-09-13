@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad4e15a5966faf4d9c9ea3c51051d52, type: 3}
+  m_Name: Crit
+  m_EditorClassIdentifier: 
+  itemName: Crit Dmg Up
+  currentCost: 1670
+  currentLevel: 11
+  maxLevel: 45
+  description: why just hit hard when you can hit even harder? harder hit will make
+    your enemy hard too
+  unit: x dmg
+  upgradeStat: 0.2
+  currentStat: 2.3
+  sprite: {fileID: 21300000, guid: ff33da11e0e6e3f438d76cc18e9513b5, type: 3}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e463c7e90453b4ebf9b3e5a929ce24, type: 3}
+  m_Name: DungeonConfiguration
+  m_EditorClassIdentifier: 
+  maxFloor: 1
+  defenseScaleFactor: 90
+  currentFloor: 1
+  enemyCountMax: 10
+  enemyCountMin: 7
+  enemyCount: 7
+  tileSize: 2
+  roomMin: {x: 12, y: 8}
+  roomMax: {x: 15, y: 10}
+  minimumRoom: 5
+  maximumRoom: 8
+  roomGap: 1
+  mapFactor: 0.8
+  constant: 2
+  decorationChance: 35
+  tileChance: 60
+  decorationPrefab:
+  - {fileID: 2341156735902867884, guid: f4bb22f86eaeed44380f525b80941095, type: 3}
+  - {fileID: 6989513834673802290, guid: 78898d65ce5fbc74cb5ccf84c9d36548, type: 3}
+  - {fileID: 3488497827750542, guid: e7799987ec5814e4aadce0142fbbabe2, type: 3}
+  - {fileID: 2658769486189147942, guid: f423db56a1545af44a0e05893ae3ccf1, type: 3}
+  - {fileID: 5875035872811252885, guid: 86694539fb199644baf12ec310676b94, type: 3}
+  tile: {fileID: 7116598054486854480, guid: 3f74d2c1634579f419ef3adda56c14bc, type: 3}
+  enemy: {fileID: 8614382091413030815, guid: 060d96118a95a334bbcfbe0434305c1b, type: 3}
+  enemy1: {fileID: 8614382091413030815, guid: 8dce5f4213a961744993dc00be9cba1a, type: 3}
+  enemy2: {fileID: 8614382091413030815, guid: 5b0e2afba3d4cb342850b56295d750ab, type: 3}
+  boss: {fileID: 2653037911908764147, guid: a14fc73a85f347a4b861c9897e1b7dc4, type: 3}
+  commonChance: 990
+  mediumChance: 8
+  eliteChance: 2
+  blockAllInput: 0
+  unlockedFloor: 0
+  EnemyClearedEvent: {fileID: 11400000, guid: d828c94d6f90a8b41a87561847ae64c6, type: 2}
+  UpdateEnemy: {fileID: 11400000, guid: 23ea74c5c92293b4f8c29780b51eca71, type: 2}
+  bossFloorUnlocked: 0
+  isBossFloor: 0

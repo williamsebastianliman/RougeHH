@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad4e15a5966faf4d9c9ea3c51051d52, type: 3}
+  m_Name: Luckup
+  m_EditorClassIdentifier: 
+  itemName: Luck Up
+  currentCost: 1870
+  currentLevel: 16
+  maxLevel: 45
+  description: When luck's on your side you can be hard in most of your hit
+  unit: '% rate'
+  upgradeStat: 2
+  currentStat: 11
+  sprite: {fileID: 21300000, guid: c16d3e5511c9e1341b0bd70dcb31fb81, type: 3}

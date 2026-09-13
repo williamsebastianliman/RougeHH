@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DungeonManager
+  - GameManager
+  - AudioManager
+  - SkillImage
+  - Skill1
+  - Skill2
+  - Skill3
+  - Skill4
+  - Skill5
+  - Skill6
+  - Skill7
+  - Skill8
+  - Skill9
+  - SkillManager
+  - SkillCover
+  - CooldownText
+  - TopUI
+  - GameOver
+  - Canvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Ground
+  - Wall
+  - Entity
+  - 
+  - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
